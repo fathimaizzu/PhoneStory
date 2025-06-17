@@ -3,8 +3,8 @@
  function SecFive() {
    return (
      <div>
-        <div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 justify-center items-center   p-10 2xl:p-30'>
-            <div className='w-[360] h-[640px] '>
+        <div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 justify-center items-center   sm:p-10 2xl:p-30'>
+            <div className=' h-[640px] '>
           <img src="./assets/group1.png" className='h-[330px]'/>
                 <div className='px-[20px]'>
                 <p className='font-light text-[33px] leading-30'>Popular Products</p>
@@ -13,7 +13,7 @@
              </div>
             </div>
 
-             <div className='w-[360] h-[640px] '>
+             <div className=' h-[640px] '>
           <img src="./assets/group2.png"  className='h-[330px]'/>
          
                 <div className='px-[20px]'>
@@ -24,7 +24,7 @@
             </div>
 
 
-          <div className='bg-[#EAEAEA] w-[360] h-[640px]'>
+          <div className='bg-[#EAEAEA] s h-[640px]'>
           <img src="./assets/group3.png"  className='h-[330px]'/>
                 <div className='px-[20px]'>
                 <p className='font-light text-[33px] leading-30'>Samsung Galaxy </p>
@@ -34,7 +34,7 @@
             </div>
 
 
-                        <div className='bg-[#2C2C2C]  w-[360] h-[640px] '>
+                        <div className='bg-[#2C2C2C] h-[640px] '>
           <img src="./assets/group4.png"  className='h-[330px]'/>
                 <div  className='px-[20px]'>
                 <p className='font-light text-[33px] text-white leading-30'>Macbook Pro</p>
