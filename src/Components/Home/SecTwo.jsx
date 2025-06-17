@@ -3,7 +3,7 @@
  function SecTwo() {
    return (
      <div>
-        <div className=' flex flex-col lg:flex-row'>
+        <div className='w-full overflow-hidden flex flex-col lg:flex-row'>
           <div className='lg:w-[50%]'>
           <div className='flex items-center'>
             <div>
