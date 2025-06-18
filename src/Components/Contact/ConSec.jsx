@@ -32,13 +32,13 @@ function ConSec() {
     </div>
     <div className='px-5 sm:px-12 xl:px-20  flex-row  w-[50%]   '>
         <h1>Name:</h1>
-        <input type="text" placeholder='Enter Your Name' className='w-[320px] h-[50px] border-2 rounded-lg text-center'/>
+        <input type="text" placeholder='Enter Your Name' className='w-[330px] h-[50px] border-2 rounded-lg text-center'/>
         <h1>Address:</h1>
-        <input type="text" placeholder='Address' className='w-[320px] h-[50px] border-2 rounded-lg text-center'/>
+        <input type="text" placeholder='Address' className='w-[330px] h-[50px] border-2 rounded-lg text-center'/>
          <h1>Phone No:</h1>
-        <input type="text" placeholder='Phone Number' className='w-[320px] h-[50px] border-2 rounded-lg text-center'/>
+        <input type="text" placeholder='Phone Number' className='w-[330px] h-[50px] border-2 rounded-lg text-center'/>
         <h1>Message</h1>
-        <input type="text" placeholder='Leave a message...' className='w-[320px] h-[150px] border-2 rounded-lg text-center'/>
+        <input type="text" placeholder='Leave a message...' className='w-[330px] h-[150px] border-2 rounded-lg text-center'/>
        
       
     </div>
