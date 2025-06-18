@@ -10,9 +10,9 @@ function ConSec() {
             <h1 className='text-center font-bold text-[20px] sm:text-[30px] lg:text-[40px]'>Contact Us</h1>
             <p className='text-center font-medium text-[12px] sm:text-[15px] lg:text-[18px] text-[#717171]'>Any question or remarks? Just write us a message!</p>
         </div>
-        <div className='grid grid-cols-1 sm:grid-cols-2  justify-center  py-20  '>
-    <div className='flex pl-0 md:pl-13 lg:pl-40 xl:pl-80 px-80 w-[50%] items-center mx-auto'>
-        <div className='bg-[#1A1A1A] p-[50px] rounded-xl mb-5'>
+        <div className='grid grid-cols-1 sm:grid-cols-2  justify-center  py-10  '>
+    <div className='flex pl-0 md:pl-13 lg:pl-40  xl:pl-80 px-80 w-[50%] items-center mx-auto'>
+        <div className='bg-[#1A1A1A] p-[45px] rounded-xl mb-5'>
             <h1 className='font-semibold text-[28px] text-white'>Contact Information</h1>
             <p className='text-[18px] text-[#C9C9C9] '>Say something to start a live chat!</p>
             <div className='flex text-white mt-20 space-y-5 gap-3'>
@@ -30,7 +30,7 @@ function ConSec() {
         </div>
 
     </div>
-    <div className='px-8 sm:px-10 xl:px-20  flex-row gap-3 w-[50%]  leading-9  '>
+    <div className='px-7 sm:px-12 xl:px-20  flex-row  w-[50%]   '>
         <h1>Name:</h1>
         <input type="text" placeholder='Enter Your Name' className='w-[300px] h-[50px] border-2 rounded-lg text-center'/>
         <h1>Address:</h1>
