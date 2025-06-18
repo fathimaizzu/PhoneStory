@@ -72,7 +72,7 @@
                  <button className='font font-mediumtext-[14px] bg-black text-white w-[188px] h-[48px] rounded-lg mb-3'>Buy Now</button>
             </div>
             
-             <div className='px-10  bg-[#EDEDED] relative rounded-lg mx-auto mt-[32px] flex flex-col justify-center items-center pt-[40px]' >
+             <div className='px-6  bg-[#EDEDED] relative rounded-lg mx-auto mt-[32px] flex flex-col justify-center items-center pt-[40px]' >
               < CiHeart className='absolute right-10 top-6 text-[18px]'/>
                 <img src="./assets/tab.png"/>
                 <p className='text-[16px] font-medium leading-8'>Apple iPad 9 10.2" 64GB Wi-Fi </p>
