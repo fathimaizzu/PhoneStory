@@ -6,7 +6,7 @@
         <div className='font-medium text-[18px] sm:text-[24px] py-[50px]'>
             Discounts up to -50%
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 '>
+        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 mb-5'>
                 <div className='px-10 bg-[#EDEDED] relative rounded-lg mx-auto mt-[32px] flex flex-col justify-center items-center pt-[40px]' >
                   < CiHeart className='absolute right-10 top-6 text-[18px]'/>
                     <img src="./assets/iphone14.png"/>
@@ -34,7 +34,7 @@
                      <button className='font font-mediumtext-[14px] bg-black text-white w-[188px] h-[48px] rounded-lg mb-3'>Buy Now</button>
                 </div>
 
-                                <div className='px-10 bg-[#EDEDED] relative rounded-lg mx-auto mt-[32px] flex flex-col justify-center items-center pt-[40px]' >
+                                <div className='px-7 bg-[#EDEDED] relative rounded-lg mx-auto mt-[32px] flex flex-col justify-center items-center pt-[40px]' >
                   < CiHeart className='absolute right-10 top-6 text-[18px]'/>
                     <img src="./assets/iphone1tb.png"/>
                     <p className='text-[16px] font-medium leading-8'>Apple iPhone 14 Pro 1TB Gold </p>
