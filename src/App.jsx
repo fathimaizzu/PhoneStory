@@ -9,11 +9,11 @@ import Footer from './Components/Footer'
 
 
 function App() {
-   const navigate=useNavigate()
-  useEffect (()=>{
-    navigate("/Home");
+  //  const navigate=useNavigate()
+  // useEffect (()=>{
+  //   navigate("/Home");
 
-  },[navigate])
+  // },[navigate])
 
   return (
     <>

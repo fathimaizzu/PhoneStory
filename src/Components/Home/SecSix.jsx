@@ -2,11 +2,12 @@
   import { CiHeart } from "react-icons/ci";
  function SecSix() {
    return (
-    <div className='px-[50px] sm:px-[80px] 2xl:px-[120px]'>
-        <div className='font-medium text-[18px] sm:text-[24px] py-[50px]'>
+    <div className=''>
+        <div className='font-medium text-[18px] sm:text-[24px] py-[50px] px-[50px] sm:px-[80px] 2xl:px-[120px]
+        '>
             Discounts up to -50%
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 mb-5'>
+        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 mb-5 px-[50px] sm:px-[80px] 2xl:px-[120px]'>
                 <div className='px-10 bg-[#EDEDED] relative rounded-lg mx-auto mt-[32px] flex flex-col justify-center items-center pt-[40px]' >
                   < CiHeart className='absolute right-10 top-6 text-[18px]'/>
                     <img src="./assets/iphone14.png"/>
@@ -43,6 +44,13 @@
                      <button className='font font-mediumtext-[14px] bg-black text-white w-[188px] h-[48px] rounded-lg mb-3'>Buy Now</button>
                 </div>
                 </div>
+                 <div className='hidden md:block'>
+            < img src="./assets/banner2.png" className='w-full h-[448px]'/>
+            
+        </div>
+        <div className='block md:hidden '>
+          <img src="./assets/banner3.png" className='w-full'/>
+        </div>
     </div>
     
    )

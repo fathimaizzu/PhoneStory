@@ -6,13 +6,7 @@ import { FaTiktok } from "react-icons/fa6";
 function Footer() {
   return (
     <div>
-        <div className='hidden md:block'>
-            < img src="./assets/banner2.png" className='w-full h-[448px]'/>
-            
-        </div>
-        <div className='block md:hidden '>
-          <img src="./assets/banner3.png" className='w-full'/>
-        </div>
+       
         <div className=' bg-black pb-[20px]'>
         <div className='grid  grid-cols-1 lg:grid-cols-3 pt-[100px] px-[40px] sm:px-[80px]'>
             <div className='  lg:mx-auto '>
