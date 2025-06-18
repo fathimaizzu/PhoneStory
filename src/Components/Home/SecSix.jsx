@@ -3,8 +3,7 @@
  function SecSix() {
    return (
     <div className=''>
-        <div className='font-medium text-[18px] sm:text-[24px] py-[50px] px-[50px] sm:px-[80px] 2xl:px-[120px]
-        '>
+        <div className='font-medium text-[18px] sm:text-[24px] py-[50px] px-[50px] sm:px-[80px] 2xl:px-[120px] '>
             Discounts up to -50%
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 mb-5 px-[50px] sm:px-[80px] 2xl:px-[120px]'>

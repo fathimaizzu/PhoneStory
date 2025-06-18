@@ -7,11 +7,11 @@ function ConSec() {
   return (
     <div>
         <div className='mt-[50px]'>
-            <h1 className='flex justify-center font-bold text-[40px]'>Contact Us</h1>
-            <p className='flex justify-center font-medium text-[18px] text-[#717171]'>Any question or remarks? Just write us a message!</p>
+            <h1 className='text-center font-bold text-[20px] sm:text-[30px] lg:text-[40px]'>Contact Us</h1>
+            <p className='text-center font-medium text-[12px] sm:text-[15px] lg:text-[18px] text-[#717171]'>Any question or remarks? Just write us a message!</p>
         </div>
-        <div className='flex  justify-center py-20 '>
-    <div className='flex mb-2'>
+        <div className='grid grid-cols-1 sm:grid-cols-2  justify-center  py-20  '>
+    <div className='flex pl-0 md:pl-13 lg:pl-40 xl:pl-80 px-80 w-[50%] items-center mx-auto'>
         <div className='bg-[#1A1A1A] p-[50px] rounded-xl mb-5'>
             <h1 className='font-semibold text-[28px] text-white'>Contact Information</h1>
             <p className='text-[18px] text-[#C9C9C9] '>Say something to start a live chat!</p>
@@ -30,7 +30,7 @@ function ConSec() {
         </div>
 
     </div>
-    <div className='px-20  flex-row gap-3 '>
+    <div className='px-8 sm:px-10 xl:px-20  flex-row gap-3 w-[50%]  leading-9  '>
         <h1>Name:</h1>
         <input type="text" placeholder='Enter Your Name' className='w-[300px] h-[50px] border-2 rounded-lg text-center'/>
         <h1>Address:</h1>
@@ -38,7 +38,7 @@ function ConSec() {
          <h1>Phone No:</h1>
         <input type="text" placeholder='Phone Number' className='w-[300px] h-[50px] border-2 rounded-lg text-center'/>
         <h1>Message</h1>
-        <input type="text" placeholder='Leave a message...' className='w-[300px] h-[130px] border-2 rounded-lg text-center'/>
+        <input type="text" placeholder='Leave a message...' className='w-[300px] h-[150px] border-2 rounded-lg text-center'/>
        
       
     </div>
